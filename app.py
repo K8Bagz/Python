@@ -1,12 +1,12 @@
 import sys
 
 from commands.power import run as power
-#from commands.multiply import run as multiply
+from commands.multiply import run as multiply
 #from commands.reverse import run as reverse
 
 commands = {
     "power": power,
-#    "multiply": multiply,
+    "multiply": multiply,
 #    "reverse": reverse
 }
 
