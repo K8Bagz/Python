@@ -6,6 +6,8 @@ def power(base, exponent):
         return 1
 
     return base * power(base, exponent - 1)
+    # or return pow(base, exponent) 
+    # or return base ** exponent
 
 def run():
     base = int(input("Base: "))
